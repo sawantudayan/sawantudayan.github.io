@@ -58,6 +58,10 @@
   color: #0077b5;
 }
 
+.envelope {
+  color: #c4c4c4;
+}
+
 .angellist {
   color: grey;
 }
@@ -79,6 +83,9 @@
   background-color: black;
 }
 
+.envelope:hover {
+  background-color: rgb(255, 3, 3);
+}
 /* Buttons - Read Me, Contact Us */
 
 .readme {
