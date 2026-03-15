@@ -740,7 +740,7 @@
   <section id="hero">
     <div class="container">
       <div class="hero-inner fade-in visible">
-        <p class="hero-tag">GenAI · LLM Infrastructure · ML Platform</p>
+        <p class="hero-tag">LLM Infrastructure | RAG Pipelines | Agentic AI | Trust & Safety Guardrails | Observability</p>
         <h1 class="hero-name">Udayan<br><span class="accent">Sawant.</span></h1>
         <p class="hero-title">Building the infrastructure that makes AI<br>work in production.</p>
 
@@ -756,7 +756,7 @@
           <div class="terminal-line"><span class="out">LLM fine-tuning · RAG pipelines · LangChain · Vector DBs</span></div>
           <div class="terminal-line"><span class="out">Azure / GCP · Feature Store · ML Platform · 6+ yrs</span></div>
           <div class="terminal-line" style="margin-top:8px"><span class="prompt">❯</span> <span class="cmd">status</span></div>
-          <div class="terminal-line"><span class="comment"># open to GenAI infrastructure roles</span></div>
+          <div class="terminal-line"><span class="comment"># open to GenAI Infrastructure Roles | Founding AI Engineer</span></div>
           <div class="terminal-line"><span class="prompt">❯</span> <span class="cursor"></span></div>
         </div>
 
@@ -810,7 +810,7 @@
             <div class="stat-label">Cloud platforms</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">10+</div>
+            <div class="stat-num">20+</div>
             <div class="stat-label">Medium articles</div>
           </div>
           <div class="stat-card">
@@ -861,7 +861,7 @@
           <div class="chip-row">
             <span class="chip hot">Azure</span>
             <span class="chip hot">GCP</span>
-            <span class="chip">AWS</span>
+            <span class="chip hot">AWS</span>
             <span class="chip">Kubernetes</span>
             <span class="chip">Docker</span>
             <span class="chip">MLflow</span>
@@ -886,7 +886,7 @@
           <div class="stack-card-title">🧰 Languages & Frameworks</div>
           <div class="chip-row">
             <span class="chip hot">Python</span>
-            <span class="chip">Java</span>
+            <span class="chip">C++</span>
             <span class="chip">SQL</span>
             <span class="chip">FastAPI</span>
             <span class="chip">PyTorch</span>
@@ -897,11 +897,11 @@
         <div class="stack-card fade-in">
           <div class="stack-card-title">📊 Observability</div>
           <div class="chip-row">
+            <span class="chip hot">Arize</span>
             <span class="chip">Grafana</span>
             <span class="chip">Prometheus</span>
             <span class="chip">CloudWatch</span>
             <span class="chip">Tableau</span>
-            <span class="chip">QuickSight</span>
             <span class="chip">Looker</span>
           </div>
         </div>
@@ -925,11 +925,16 @@
             <span class="timeline-date">Oct 2024 → Present · San Francisco, CA</span>
           </div>
           <ul class="timeline-bullets">
-            <li>Building the <strong>Feature Infrastructure and ML Platform</strong> powering production GenAI systems at scale.</li>
-            <li>Architecting <strong>RAG pipelines</strong> and LLM integrations using LangChain, Pinecone, and Azure OpenAI.</li>
-            <li>Led migration of FINRA's data collection infrastructure from legacy XML to <strong>Amazon DocumentDB</strong>, cutting dev cycles by 50% and achieving 50% cost savings with AWS Graviton2.</li>
-            <li>Built real-time data pipelines using AWS Glue and Amazon Kinesis for high-throughput financial data ingestion.</li>
-            <li>Established proactive monitoring with <strong>CloudWatch</strong>, ensuring regulatory compliance and system health.</li>
+            <li>Designed and developed an <strong>OpenAI-compatible API suite</strong> by refactoring chunk and file management APIs to align with OpenAI standards — delivering the full Vector Store / Files / Batches API suite to support enterprise GenAI integration at scale.</li>
+            <li>Led <strong>API rationalisation for GenAI Data Services</strong>, implementing architectural enhancements to ingestion APIs that improved Change Data Capture tracking, embedding support, and fault tolerance; authored detailed API documentation covering trade-offs and onboarding steps.</li>
+            <li>Built a <strong>Content Caching feature via Google Vertex AI</strong>, reducing redundant LLM calls by caching high-frequency prompts — cutting token consumption by up to <strong>~75%</strong> on repeated queries and lowering p99 latency from ~3.2s to ~0.4s for cache hits.</li>
+            <li>Implemented <strong>Rate Limiting across the Tachyon API Suite</strong>, enforcing per-client and per-endpoint quotas — reducing downstream overload incidents by ~60% and improving platform stability under concurrent GenAI workloads.</li>
+            <li>Enabled <strong>Arize AI Observability</strong> across WF's Tachyon Platform, instrumenting full LLM tracing, embedding drift detection, and prompt/response monitoring — giving teams end-to-end visibility into model behaviour in production for the first time.</li>
+            <li>Currently building <strong>Trust & Safety Guardrails</strong> for GenAI pipelines — including input/output filtering, toxicity detection, and policy enforcement layers to ensure responsible AI deployment at enterprise scale.</li>
+            <li>Enhanced <strong>data indexing and retrieval</strong> via Elasticsearch reindexing, alias management, and validation processes; improved MongoDB performance through schema refinement, optimised indexing, and a TTLCache / asyncache-based cache hit utility to eliminate global state.</li>
+            <li>Integrated <strong>Kafka audit logging and health monitoring</strong> for Tachyon API routers; contributed to resilient deployment pipelines using Jenkins, Harness, and UCD across multiple environments.</li>
+            <li>Conducted <strong>vulnerability scans via SonarQube</strong>, updated security profiles, and led migration to compliant Python Buildpack versions aligned with Wells Fargo TCI security standards.</li>
+            <li>Assessed impact and transition plan following <strong>Gemini model deprecation</strong>, identifying performance and compatibility risks for downstream GenAI systems; collaborated across teams on security triage and new API endpoints for ingestion metrics and status tracking.</li>
           </ul>
         </div>
 
@@ -944,6 +949,9 @@
             <li>Designed an ETL strategy with <strong>PySpark and Snowflake</strong> that reduced processing time by 70% and saved $3.2M annually.</li>
             <li>Led end-to-end cloud migration from on-premise data warehouses to <strong>Amazon Redshift</strong> for a petabyte-scale environment.</li>
             <li>Used Redshift's MPP architecture and columnar storage for high-performance querying and analytics.</li>
+            <li>Built real-time data pipelines using AWS Glue and Amazon Kinesis for high-throughput financial data ingestion.</li>
+            <li>Led migration of FINRA's data collection infrastructure from legacy XML to <strong>Amazon DocumentDB</strong>, cutting dev cycles by 50% and achieving 50% cost savings with AWS Graviton2.</li>
+            <li>Established proactive monitoring with <strong>CloudWatch</strong>, ensuring regulatory compliance and system health.</li>
             <li>Built strategic reporting and market trend analysis tools using <strong>Redshift Spectrum</strong> for executive decision-making.</li>
           </ul>
         </div>
